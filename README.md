@@ -1,30 +1,22 @@
-## React-Boilerplate
+## Ren-UI
 
-A React-Boilerplate for the Technopathic Full-Stack Web Development series.
+Ren-UI is a set of React components that loosely implement Material Design specifications.
 
-This boilerplate includes generators for containers and components. It includes features such as CSS-loading and Styled-Components. React-Icons, React-Responsive, and Material-UI are also included by default for UI/UX design.
+Check out the documentation site live examples. It's still a work in progress, but you can see where it's going. The main difference between this library and most other UI libraries is the increased speed and reduction of resource use.
 
 ## Getting Started
+I highly recommend you get to know ReactJS before diving into Ren-UI. Ren-UI is a set of React components so you will gain the most out of it by already knowing ReactJS and JavaScript.
+
 To quickly get started, fork this repo and clone it onto your local computer. Then run `npm install` to install all of the necessary libraries.
 ```
-git clone https://github.com/Technopathic/react-boilerplate.git
-cd react-boilerplate
+git clone https://github.com/Technopathic/ren-ui.git
+cd ren-ui
 npm install
 ```
-
-From there you should go ahead and generate a new Container for Home `npm run generate container`. Next, you should uncomment the Home route in the routes.js file.
-
 To run the server, simply do `npm run start` and your development website will be on http://localhost:3000.
 
-## Commands
-To generate Containers:
-`npm run generate container`
-
-To generate Components:
-`npm run generate component`
-
-## Thanks
-Special thanks to MXSTBR for his React-Boilerplate and the original build scripts.
+# Roadmap
+Implement Ren-UI has a stand-alone Component Library.
 
 ## License
 MIT
