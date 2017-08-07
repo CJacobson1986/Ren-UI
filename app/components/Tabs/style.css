@@ -1,0 +1,45 @@
+/* Tabs Styles */
+
+.renuiTabsContainer {
+  display:flex;
+  flex-direction:column;
+}
+
+.renuiTabsRow {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  height:60px;
+  background:#FFFFFF;
+}
+
+.renuiTabsTab {
+  height:60px;
+  width:100%;
+  max-width:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+  transition: background 500ms;
+  cursor:pointer;
+  font-size:0.9em;
+}
+
+.renuiTabsTab:hover {
+  background:rgba(0, 0, 0, 0.1)
+}
+
+.renuiTabsTab:active {
+  background:rgba(0, 0, 0, 0.3)
+}
+
+.renuiTabsIcon {
+  font-size:1.6em;
+}
+
+.renuiTabsTabActive {
+  color:#6fe0e8;
+  border-bottom:3px solid #6fe0e8;
+}

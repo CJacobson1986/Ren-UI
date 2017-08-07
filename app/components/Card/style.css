@@ -1,0 +1,28 @@
+/* Card Styles */
+
+.renuiCardContainer {
+  display:flex;
+  flex-direction:column;
+  min-height:200px;
+  border:1px solid #DDDDDD;
+  border-radius:5px;
+  margin:15px;
+}
+
+.renuiCardImage {
+  width:100%;
+}
+
+.renuiCardContent {
+  padding:10px;
+}
+
+.renuiCardHeader {
+  height:30px;
+  width:inherit;
+  background:#EEEEEE;
+  font-size:1.6em;
+  color:#777777;
+  padding:15px;
+  font-variant:small-caps;
+}

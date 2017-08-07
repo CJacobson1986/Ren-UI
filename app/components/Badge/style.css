@@ -1,0 +1,75 @@
+/* Badge Styles */
+
+.renuiBadgeContainer {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding:15px;
+}
+
+.renuiBadgeContent {
+  font-size:1.5em;
+}
+
+.renuiBadge {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:50%;
+  min-width:20px;
+  min-height:20px;
+  text-align:center;
+  background:#DDDDDD;
+  padding:5px;
+  font-size:0.8em;
+  margin-left:5px;
+  margin-top:-30px;
+}
+
+.renuiBadgePrimary {
+  background:#6fe0e8;
+  color:#FFFFFF;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:50%;
+  min-width:20px;
+  min-height:20px;
+  text-align:center;
+  padding:5px;
+  font-size:0.8em;
+  margin-left:5px;
+  margin-top:-30px;
+}
+
+.renuiBadgeSecondary {
+  background:#ff2181;
+  color:#FFFFFF;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:50%;
+  min-width:20px;
+  min-height:20px;
+  text-align:center;
+  padding:5px;
+  font-size:0.8em;
+  margin-left:5px;
+  margin-top:-30px;
+}
+
+.renuiBadgeThird {
+  background:#02b875;
+  color:#FFFFFF;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:50%;
+  min-width:20px;
+  min-height:20px;
+  text-align:center;
+  padding:5px;
+  font-size:0.8em;
+  margin-left:5px;
+  margin-top:-30px;
+}

@@ -1,0 +1,58 @@
+/* Progress Styles */
+
+.renuiProgressContainer {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding:15px;
+}
+
+.renuiProgressCircleOne {
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  background:#6fe0e8;
+  animation: scaleUpOne 1s infinite;
+  margin-right:15px;
+}
+
+.renuiProgressCircleTwo {
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  background:#6fe0e8;
+  animation: scaleUpTwo 1s infinite;
+  margin-right:15px;
+}
+
+.renuiProgressCircleThree {
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  background:#6fe0e8;
+  animation: scaleUpThree 1s infinite;
+}
+
+@keyframes scaleUpOne {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(2); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes scaleUpTwo {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1); }
+  50% { transform: scale(2); }
+  75% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes scaleUpThree {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1); }
+  50% { transform: scale(1); }
+  75% { transform: scale(2); }
+  100% { transform: scale(1); }
+}

@@ -1,0 +1,93 @@
+/* Button Styles */
+
+.renuiButton {
+  transition: background 500ms;
+  border-radius:5px;
+  text-align:center;
+  align-items:center;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  cursor:pointer;
+  user-select: none;
+}
+
+a {
+  text-decoration:none;
+  color:#000000;
+  display:block;
+}
+
+.renuiButton:hover {
+  background:rgba(0, 0, 0, 0.1);
+}
+
+.renuiButtonPrimary {
+  background:#6fe0e8;
+  color:#FFFFFF;
+  transition: background 500ms;
+  border-radius:5px;
+  text-align:center;
+  align-items:center;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  cursor:pointer;
+  user-select: none;
+}
+
+.renuiButtonPrimary:hover {
+  background:#8be6ec;
+}
+
+.renuiButtonPrimary:active {
+  background:#a8ecf1;
+}
+
+.renuiButtonSecondary {
+  background:#ff2181;
+  color:#FFFFFF;
+  transition: background 500ms;
+  border-radius:5px;
+  text-align:center;
+  align-items:center;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  cursor:pointer;
+  user-select: none;
+}
+
+.renuiButtonSecondary:hover {
+  background:#ff61a5;
+}
+
+.renuiButtonSecondary:active {
+  background:#ff88bb;
+}
+
+.renuiButtonThird {
+  background:#02b875;
+  color:#FFFFFF;
+  transition: background 500ms;
+  border-radius:5px;
+  text-align:center;
+  align-items:center;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  cursor:pointer;
+  user-select: none;
+}
+
+.renuiButtonThird:hover {
+  background:#34c690;
+}
+
+.renuiButtonThird:active {
+  background:#67d4ac;
+}

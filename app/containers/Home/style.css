@@ -1,0 +1,174 @@
+/* Home Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.mainContainer {
+  display:flex;
+  flex-direction:column;
+  padding-left:12vw;
+}
+
+.mainHeader {
+  display:flex;
+  flex-direction:column;
+  background:#6fe0e8;
+  width:100%;
+  height:400px;
+  justify-content:center;
+  align-items:center;
+}
+
+.showcaseMain {
+  display:flex;
+  flex-direction:column;
+  padding:15px;
+}
+
+.showcaseButtons {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseAvatars {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseBadge {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+
+.showcaseBottomNavigation {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+
+.showcaseBottomSheet {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseCard {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+
+}
+
+.showcaseChip {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseCheckbox {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseInput {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseList {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseSnackbar {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseTabs {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseDialog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseDrawer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseTypography{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseSlider{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.showcaseProgress{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.codeContainer {
+  padding:15px;
+  background:#EEEEEE;
+  margin-top:15px;
+}

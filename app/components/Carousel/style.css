@@ -1,0 +1,70 @@
+/* Slider Styles */
+
+.renuiCarouselContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:flex-end;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  position:relative;
+  z-index:1;
+}
+
+.renuiCarouselContainerButtons {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  position:relative;
+  z-index:1;
+}
+
+.renuiSliderIcon {
+  font-size:1.8em;
+  margin:5px;
+  color:#FFFFFF;
+  background:rgba(0, 0, 0, 0.3);
+  padding:10px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.renuiSlideImage {
+  position:absolute;
+  width:100%;
+  height:auto;
+  z-index:-1;
+}
+
+.renuidotsContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:15px;
+}
+
+.renuidots {
+  height:10px;
+  width:10px;
+  background:#EEEEEE;
+  border-radius:50%;
+  margin-left:5px;
+  margin-right:5px;
+  cursor:pointer;
+}
+
+.renuidotsActive {
+  height:10px;
+  width:10px;
+  background:#ff2181;
+  border-radius:50%;
+  margin-left:5px;
+  margin-right:5px;
+  box-shadow:0px 0px 10px 0px #ff88bb;
+  cursor:pointer;
+}

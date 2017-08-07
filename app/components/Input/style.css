@@ -1,0 +1,65 @@
+/* Input Styles */
+
+.renuiInputContainer {
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+}
+
+.renuiInputField {
+  border:none;
+  background:transparent;
+  border-bottom:2px solid #DDDDDD;
+  padding-bottom:5px;
+  padding-top:5px;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  font-size:1em;
+  color:#222222;
+  resize:none;
+  font-size:1em;
+  font-family:sans-serif;
+}
+
+.renuiInputFieldPrimary:focus {
+  box-shadow:none;
+  outline:none;
+  border-bottom:2px solid #6fe0e8;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.renuiInputFieldWarning:focus {
+  box-shadow:none;
+  outline:none;
+  border-bottom:2px solid #ffbe39;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.renuiInputFieldDanger:focus {
+  box-shadow:none;
+  outline:none;
+  border-bottom:2px solid #ff2181;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.renuiInputFieldSuccess:focus {
+  box-shadow:none;
+  outline:none;
+  border-bottom:2px solid #02b875;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.renuiInputErrorText {
+  font-size:0.8em;
+  color:#ff2181;
+}
+
+.renuiInputLabel {
+  font-size:0.8em;
+  color:#888888;
+}

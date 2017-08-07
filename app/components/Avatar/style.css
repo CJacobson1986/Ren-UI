@@ -1,0 +1,15 @@
+/* Avatar Styles */
+
+.renuiAvatarImgCircle {
+  height:60px;
+  width:60px;
+  border-radius:50%;
+  background:#CCCCCC;
+}
+
+
+.renuiAvatarImgSquare {
+  height:60px;
+  width:60px;
+  border-radius:5px;
+}

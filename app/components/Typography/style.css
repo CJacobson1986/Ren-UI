@@ -1,0 +1,17 @@
+/* Typography Styles */
+
+.renuiTypographyContent {
+  color:#555555;
+  font-variant:small-caps;
+}
+
+.renuiTypographySub {
+  font-size:0.8em;
+  color:#999999;
+}
+
+.renuiTypographyDivider {
+  height:1px;
+  background:#DDDDDD;
+  width:100%;
+}

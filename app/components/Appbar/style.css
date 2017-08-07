@@ -1,0 +1,43 @@
+/* Appbar Styles */
+
+.renuiAppbar {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  height:50px;
+  background:transparent;
+}
+
+.renuiAppbarFixed {
+  position:fixed;
+  top:0;
+  z-index:94;
+  width:100%;
+}
+
+.renuiAppbarPrimary {
+  background:#6fe0e8;
+}
+
+.renuiAppbarSecondary {
+  background:#ff2181;
+}
+
+.renuiAppbarThird {
+  background:#02b875;
+}
+
+.renuiAppbarLogo {
+  font-size:2em;
+  font-variant:small-caps;
+  margin-left:15px;
+  color:#FFFFFF;
+}
+
+.renuiAppbarNav {
+  margin-right:15px;
+  display:flex;
+  flex-direction:row;
+  color:#FFFFFF;
+}
