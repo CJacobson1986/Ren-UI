@@ -20,6 +20,7 @@
   height:400px;
   justify-content:center;
   align-items:center;
+  text-align:center;
 }
 
 .showcaseMain {
@@ -31,6 +32,7 @@
 .showcaseButtons {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;
@@ -47,6 +49,7 @@
 .showcaseBadge {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;
@@ -73,6 +76,7 @@
 .showcaseCard {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;
@@ -82,6 +86,7 @@
 .showcaseChip {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;
@@ -106,6 +111,7 @@
 .showcaseList {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;
@@ -138,6 +144,7 @@
 .showcaseDrawer{
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   margin-top:15px;
   margin-bottom:15px;

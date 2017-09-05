@@ -41,7 +41,46 @@ export default class Home extends React.PureComponent {
       openDrawer:false,
       openTopDrawer:false,
       openRightDrawer:false,
-      openBottomDrawer:false
+      openBottomDrawer:false,
+      menuDrawer:true
+    }
+  }
+
+  componentWillMount() {
+    if(window.innerWidth <= 425)
+    {
+      this.setState({
+        menuDrawer:false
+      })
+    }
+  }
+
+  renderMenuDrawer() {
+    if(this.state.menuDrawer === true)
+    {
+      return(
+        <Drawer docked overStyle={{zIndex:'95'}}>
+          <a href="#intro"><ListItem content="Introduction"/></a>
+          <a href="#appbar"><ListItem content="Appbar"/></a>
+          <a href="#avatar"><ListItem content="Avatar"/></a>
+          <a href="#badge"><ListItem content="Badge"/></a>
+          <a href="#button"><ListItem content="Button"/></a>
+          <a href="#card"><ListItem content="Card"/></a>
+          <a href="#carousel"><ListItem content="Carousel"/></a>
+          <a href="#checkbox"><ListItem content="Checkbox"/></a>
+          <a href="#chip"><ListItem content="Chip"/></a>
+          <a href="#dialog"><ListItem content="Dialog"/></a>
+          <a href="#drawer"><ListItem content="Drawer"/></a>
+          <a href="#grid"><ListItem content="Grid"/></a>
+          <a href="#input"><ListItem content="Input"/></a>
+          <a href="#list"><ListItem content="List"/></a>
+          <a href="#progress"><ListItem content="Progress"/></a>
+          <a href="#slider"><ListItem content="Slider"/></a>
+          <a href="#snackbar"><ListItem content="Snackbar"/></a>
+          <a href="#tabs"><ListItem content="Tabs"/></a>
+          <a href="#typography"><ListItem content="Typography"/></a>
+        </Drawer>
+      )
     }
   }
 
@@ -94,27 +133,7 @@ export default class Home extends React.PureComponent {
       <div className="container">
         <Helmet title="Ren-UI" meta={[ { name: 'description', content: 'React Web Components that Implement Material Design.' }]}/>
 
-        <Drawer docked overStyle={{zIndex:'95'}}>
-          <a href="#intro"><ListItem content="Introduction"/></a>
-          <a href="#appbar"><ListItem content="Appbar"/></a>
-          <a href="#avatar"><ListItem content="Avatar"/></a>
-          <a href="#badge"><ListItem content="Badge"/></a>
-          <a href="#button"><ListItem content="Button"/></a>
-          <a href="#card"><ListItem content="Card"/></a>
-          <a href="#carousel"><ListItem content="Carousel"/></a>
-          <a href="#checkbox"><ListItem content="Checkbox"/></a>
-          <a href="#chip"><ListItem content="Chip"/></a>
-          <a href="#dialog"><ListItem content="Dialog"/></a>
-          <a href="#drawer"><ListItem content="Drawer"/></a>
-          <a href="#grid"><ListItem content="Grid"/></a>
-          <a href="#input"><ListItem content="Input"/></a>
-          <a href="#list"><ListItem content="List"/></a>
-          <a href="#progress"><ListItem content="Progress"/></a>
-          <a href="#slider"><ListItem content="Slider"/></a>
-          <a href="#snackbar"><ListItem content="Snackbar"/></a>
-          <a href="#tabs"><ListItem content="Tabs"/></a>
-          <a href="#typography"><ListItem content="Typography"/></a>
-        </Drawer>
+        {this.renderMenuDrawer()}
 
 
         <main className="mainContainer" id="intro">
@@ -145,7 +164,7 @@ export default class Home extends React.PureComponent {
                 </Button>
               </Appbar>
 
-              <Appbar title="Secondary Bar" style={{margin:"30px", boxShadow:"0px 0px 15px 0px rgba(0, 0, 0, 0.3)"}} secondary>
+              <Appbar title="Second Bar" style={{margin:"30px", boxShadow:"0px 0px 15px 0px rgba(0, 0, 0, 0.3)"}} secondary>
                 <Button>
                   v0.1.5 Github
                 </Button>

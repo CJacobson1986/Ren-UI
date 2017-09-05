@@ -1,1 +1,13 @@
 /* Home Mobile Styles */
+
+
+@media (max-width: 425px) {
+
+  .codeContainer {
+    display:none;
+  }
+
+  .mainContainer {
+    padding-left:0;
+  }
+}

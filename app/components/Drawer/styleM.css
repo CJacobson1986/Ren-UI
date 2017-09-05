@@ -1,1 +1,19 @@
 /* Drawer Mobile Styles */
+
+@media(max-width:425px) {
+  .renuiDrawerLeft {
+    width:60vw;
+  }
+
+  .renuiDrawerRight {
+    width:60vw;
+  }
+
+  .renuiDrawerTop {
+    height:40vh;
+  }
+
+  .renuiDrawerBottom {
+    height:40vh;
+  }
+}
