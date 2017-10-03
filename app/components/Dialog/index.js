@@ -14,9 +14,13 @@ export default class Dialog extends React.PureComponent {
     if(this.props.open === true)
     {
       return (
-        <div className="renuiDialogOverlay" onClick={this.props.onClose}>
-          <div className="renuiDialog">
-            {this.props.children}
+        <div>
+          <div className="fullOverlay" onClick={this.props.onClose}>
+          </div>
+          <div className="renuiDialogOverlay">
+            <div className="renuiDialog">
+              {this.props.children}
+            </div>
           </div>
         </div>
       );
